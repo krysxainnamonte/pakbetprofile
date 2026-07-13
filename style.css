@@ -16,6 +16,29 @@ header {
     margin: 0%;
 }
 
+.aside-main-division {
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #cfc8c82d;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    justify-content: center;
+}
+
+.platforms {
+    width: 50px;
+}
+
 .logo {
     width: 150px;
 }
