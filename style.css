@@ -1,5 +1,5 @@
 body {
-     background: url(bodybg.png) center/cover no-repeat;
+    background: url(bodybg.png) center/cover no-repeat;
     margin-top: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-position: center;
@@ -7,14 +7,17 @@ body {
 
 header {
     background-image: url(header.png);
-    border-radius: 10px;
-    color: rgba(255, 255, 255, 0);
-    padding: 10px;
-    margin: 0%;
-    align-self: center;
-    justify-items: center;
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 0%;
+}
+
+.logo {
+    width: 150px;
 }
 
 nav {
