@@ -1,3 +1,7 @@
+* h1 {
+    color: white;
+}
+
 body {
     background: url(../PHOTOS/background.jpg) center/cover no-repeat;
     margin-top: 5px;
@@ -12,6 +16,12 @@ header {
     color: rgb(255, 255, 255);
     padding: 5px;
     margin: 0%;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .logo {
@@ -162,7 +172,7 @@ h1 {
     }
 
     .mode-photo {
-        width: 200px;
+        width: 150px;
        
     }
 
@@ -185,8 +195,6 @@ h1 {
         color: white;
     }
 }
-
-
 
 
 /*-----------------------------------------------------*/
@@ -271,7 +279,7 @@ img {
 }
 
 .map {
-    width: 750px;
+    width: 700px;
 }
 
 .lanes {
@@ -295,6 +303,10 @@ img {
 /*-------------------------------------------------------*/
 .rank-section {
     justify-items: center;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .rank {
@@ -311,7 +323,7 @@ img {
 
 
     img {
-        width: 200px;
+        width: 150px;
     }
 }
 
@@ -369,3 +381,26 @@ img {
     border-radius: 0 30px;
 }
 
+/*-----------  HERO ROLES ---------------*/
+.map-position-section {
+    text-align: center;
+}
+
+.positions img {
+    width: 150px;
+    
+    margin: 0 auto;
+}
+
+.line-up-roles {
+    display: flex;
+    gap: 50px;
+
+    justify-content: center;
+
+    color: white;
+
+    h2 {
+        margin-bottom: 0%;
+    }
+}
