@@ -78,6 +78,7 @@ footer {
 }
 
 
+
 /*-------------------FORM-------------*/
 .third-page-main{
     width:95%;
@@ -110,7 +111,7 @@ footer {
 }
 
 form{
-    padding: 10px 45px;   /* top/bottom 30px, left/right 45px */
+    padding: 10px 30px;   /* top/bottom 30px, left/right 45px */
     background:rgba(0,0,0,.35);
     backdrop-filter:blur(10px);
     border-radius:15px;
@@ -127,7 +128,7 @@ textarea{
 }
 
 input, textarea, select {
-    border-radius: 5px;
+    border-radius: 15px 0;
     padding: 10px;
 }
 
@@ -139,14 +140,14 @@ input, textarea, select {
 }
 
 .formgroup label{
-    width: 180px;   /* pare-pareho ang lapad ng labels */
+    width: 150px;   /* pare-pareho ang lapad ng labels */
     font-weight: bold;
 }
 
 .formgroup input,
 .formgroup select{
     flex: 1;
-    max-width: 250px;
+    max-width: 200px;
 }
 
 .requirements{
