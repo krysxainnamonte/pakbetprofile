@@ -145,6 +145,7 @@ main {
     border-color: gray;
     border-style: solid;
     justify-items: center;
+    margin-bottom: 10px;
 }
 
 .matcheswinratemvp {
